@@ -22,5 +22,13 @@ namespace ApplicationControlStock
             Stock stock = new Stock();
             stock.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ReceiptProducts form = new ReceiptProducts();
+
+            form.Show();
+           
+        }
     }
 }
